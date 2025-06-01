@@ -1,0 +1,42 @@
+header nav ul {
+    display: block;
+    text-align: center;
+}
+
+header nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 95%;
+}
+
+#kontakt {
+    position: relative;
+}
+
+#kontakt form {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+#pruzatelj {
+    position: relative;
+}
+
+#pruzatelj figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main section ~ section {
+    background-color: #e0e0e0;
+}
