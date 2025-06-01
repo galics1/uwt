@@ -1,0 +1,44 @@
+header, nav, footer {
+    display: none;
+}
+
+body {
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+section {
+    width: 100%;
+    page-break-after: always;
+}
+
+figure {
+    page-break-inside: avoid;
+}
+
+img[alt="Logo"] {
+    display: none;
+}
+
+form input[name="ime"],
+form input[name="prezime"],
+form input[name="email"],
+form input[name="telefon"],
+form textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+a[href*="validator"] {
+    display: none;
+}
+
+fieldset, legend {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: black;
+    color: white;
+}
